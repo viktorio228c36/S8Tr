@@ -52,6 +52,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
+    background-position: 50% 50%;
 }
 
 h3{
@@ -823,6 +824,9 @@ span {
     .footer__container{
         flex-wrap: wrap;
     }
+    body{
+        background-attachment: scroll;
+    }
 
 }
 
@@ -1238,3 +1242,8 @@ span {
         font-size: 31px;
     }
 } 
+
+@supports (-webkit-overflow-scrolling: touch) { 
+      body * {     background-attachment: scroll;   }
+    
+    }
