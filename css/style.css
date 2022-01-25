@@ -824,10 +824,6 @@ span {
     .footer__container{
         flex-wrap: wrap;
     }
-    body{
-        background-attachment: scroll;
-    }
-
 }
 
 @media(max-width:950px){
