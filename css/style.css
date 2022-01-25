@@ -52,9 +52,14 @@ body{
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
-    background-position: 50% 50%;
+
 }
 
+@media(min-width:1040px){
+    body{
+    background-size: cover;
+        }
+}
 h3{
     padding-top: 25px;
     font-weight: 700;
@@ -824,6 +829,10 @@ span {
     .footer__container{
         flex-wrap: wrap;
     }
+    body{
+        background-attachment: scroll;
+    }
+
 }
 
 @media(max-width:950px){
@@ -1243,4 +1252,3 @@ span {
       body * {     background-attachment: scroll;   }
     
     }
-
